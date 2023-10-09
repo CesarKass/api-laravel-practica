@@ -1,0 +1,10 @@
+crear la base de datos "api-laravel"
+
+crer modelo de clietnes 
+php artisan make:model Client -mcr
+
+crer modelo de servicios 
+php artisan make:model Service -mcr
+
+crear la migracion de tabla "pibote" 
+php artisan make:migration create_clients_services_table
